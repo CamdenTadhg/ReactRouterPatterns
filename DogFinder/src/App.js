@@ -70,18 +70,12 @@ App.defaultProps = {
 
 export default App;
 
-//create React Router Color Factory
-  // /colors shows a list of all available colors
-  // clicking a color shows a page of that color in all its glory (colors/:color)
-  //clicking a button will show a form to add a new color (input type color)
-  //when form is submitted, redirects to color index with new color on top
-  //when navigating to a color page that does not exist, redirect to colors index page
-  //when navigating to an invalid url, redirect to colors index page
 
-  //is there a way to get the current dog before you render the component, passing dog instead of the entire list of dog data
+  //is there a way to get the current dog before you render the component, passing dog instead of the entire list of dog data to DogDetails
   //write tests
-  //presist colors data in localStorage (useEffect)
+  //persist colors data in localStorage (useEffect)
   //style apps
   //build React Router Calculator
     //supports routes like /add/1/2 renders a component that displays 3
     //try to do this without using a different component for each math operation. 
+    //write tests

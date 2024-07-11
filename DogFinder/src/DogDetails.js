@@ -14,7 +14,7 @@ const DogDetails = ({dogs}) => {
             <div className="DogDetails-col2">
                 <h2>{dog.name}</h2>
                 <div>Age: {dog.age}</div>
-                <ul className="DogList-facts">
+                <ul>
                     {dog.facts.map(fact => <li>{fact}</li>)}
                 </ul>
             </div>
