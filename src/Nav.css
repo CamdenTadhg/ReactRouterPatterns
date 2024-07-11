@@ -1,8 +1,17 @@
 .navigation {
     display: flex;
     flex-direction: row;
+    background-color: black;
 }
 
 .navigation div {
     margin: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
 }

@@ -1,0 +1,18 @@
+.DogDetails{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.DogDetails img{
+    width: 700px;
+    justify-self: start;
+    align-self: center;
+}
+
+.DogDetails-col2{
+    justify-self: start;
+    align-self: center;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
